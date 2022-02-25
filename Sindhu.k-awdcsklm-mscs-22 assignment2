@@ -1,0 +1,15 @@
+#python program to remove zero elements from list and to find total count of non zero elements
+n=int(input('enter:'))
+l=[]
+t=[]
+c=0
+for i in range(n):
+    x=int(input('enter:'))
+    l.append(x)
+
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        c=c+1
+print(c)
+print(t)
